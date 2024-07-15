@@ -20,7 +20,7 @@ export default {
       const match = path.match(regex);
       if (!match) {
         // 路径格式不正确，返回错误
-        return new Response("路径格式不正确", {
+        return new Response("路径格式不正确,url:/1024k & /200m & /1g", {
           status: 400,
         });
       }
