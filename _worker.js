@@ -20,7 +20,7 @@ export default {
       const match = path.match(regex);
       if (!match) {
         // 路径格式不正确，返回错误
-        return new Response("路径格式不正确,url:/1024k & /200m & /1g", {
+        return new Response("路径格式不正确,默认根域名下载200m文件，后缀url:/1024k & /200m & /1g", {
           status: 400,
         });
       }
